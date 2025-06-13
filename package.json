@@ -1,0 +1,30 @@
+{
+    "name": "node-smm-api",
+    "version": "1.0.0",
+    "description": "Node.js client for SMM API for several platforms",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "jest",
+        "lint": "eslint src/ test/ examples/",
+        "examples": "node examples/basic-usage.js"
+    },
+    "keywords": [
+        "smm",
+        "api",
+        "client",
+        "smmfollows",
+        "smmgo",
+        "justanotherpanel",
+        "smmpakpanel"
+    ],
+    "author": "SENPAY98K",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.4.0",
+        "querystring": "^0.2.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.45.0",
+        "jest": "^29.6.2"
+    }
+}
