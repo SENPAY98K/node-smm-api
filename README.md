@@ -1,19 +1,19 @@
 # SMMFollows API Node.js Client
 
-Official Node.js client for the SMMFollows API v2.
+Non-official Node.js client for many SMM platforms API v2.
 
 ## Installation
 
 ```bash
-npm install smmfollows-api
+npm i node-smm-api
 ```
 
 ## Usage
 
 ```javascript
-const SmmFollowsApi = require("smmfollows-api");
+const SmmApi = require("node-smm-api");
 
-const api = new SmmFollowsApi("your_api_url_here", "your_api_key_here");
+const api = new SmmApi("your_api_url_here", "your_api_key_here");
 
 // Get account balance
 api.getBalance()
@@ -27,6 +27,7 @@ api.getBalance()
 -   Promise-based interface
 -   Custom error handling
 -   TypeScript support (if applicable)
+-   Support many panels as shown below
 
 ## API Documentation
 
